@@ -1,4 +1,4 @@
-defmodule Allstack do
+defmodule Assembler do
 	def opcodes do
 		[STOP: 0x00, 
 		 ADD: 0x01,

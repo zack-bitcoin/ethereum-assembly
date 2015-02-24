@@ -1,15 +1,15 @@
-defmodule Allstack.Mixfile do
+defmodule Assembler.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :allstack,
+    [app: :assembler,
      version: "0.0.1",
      elixir: "~> 1.0",
 		 escript: escript,
      deps: deps]
   end
   def escript do
-    [main_module: Allstack]
+    [main_module: Assembler]
   end
 
   # Configuration for the OTP application
